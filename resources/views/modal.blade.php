@@ -10,13 +10,13 @@
             <form action="{{ URL::to('save') }}" id="addForm">
                 <div class="mb-3">
                     <label for="firstname">Firstname</label>
-                    <input type="text" name="firstname" class="form-control" placeholder="Firstname">
+                    <input type="text" name="firstname" class="form-control" placeholder="Firstname" required>
                   
                 
                 </div>
                 <div class="mb-3">
                     <label for="lastname">Lastname</label>
-                    <input type="text" name="lastname" class="form-control" placeholder="Lastname">
+                    <input type="text" name="lastname" class="form-control" placeholder="Lastname" required>
                 </div>
         </div>
       <div class="modal-footer">
